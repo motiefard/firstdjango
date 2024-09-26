@@ -14,7 +14,8 @@ class Question(models.Model):
         # print(self.pub_date)
         # print(timezone.now())
         # print(datetime.timedelta(days=1))
-        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+        now = timezone.now()
+        return now - datetime.timedelta(days=1) <= self.pub_date <= now
 
 
 class Choice(models.Model):
