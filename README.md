@@ -3,8 +3,8 @@
 This is a poll application built using **Django**, a high-level Python web framework.  
 Throughout this project, I learned the creation of a basic poll application.
 It consists of two parts:
-    - A public site that lets people view polls and vote in them.
-    - An admin site that lets you add, change, and delete polls.
+  - A public site that lets people view polls and vote in them.
+  - An admin site that lets you add, change, and delete polls.
 
 
 ---
